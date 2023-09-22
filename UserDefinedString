@@ -1,0 +1,33 @@
+/*
+
+enter a string 
+javapro
+next line : javapro
+enter an another screen 
+puth 12
+next : puth
+
+*/
+
+package Strings;
+
+import java.util.Scanner;
+
+public class UserDefinedString {
+	public static void main(String[] args) {
+		System.out.println("enter a string ");
+		Scanner sc=new Scanner(System.in);
+		
+		String s1=sc.nextLine();//Here we can give any string as we want suppose we gave firstly as Java then
+		// after again compiling we can change but we cannot change next method 
+		
+		
+		System.out.println("next line : "+s1);
+		
+		System.out.println("enter an another screen ");
+		String s=sc.next();//for our next we cannot write any other character or string after the compiling 
+		System.out.println("next : "+s);
+		
+		sc.close();
+	}
+}

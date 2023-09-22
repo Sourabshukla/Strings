@@ -1,0 +1,23 @@
+package Strings;
+
+import java.util.Scanner;
+
+public class SingleCharacterFromUser {
+	public static void main(String[] args) {
+		Scanner sc =new Scanner(System.in);
+		System.out.println("enter a alphabet : ");
+		char s=sc.next().charAt(0);
+		System.out.println("character : "+s);
+		
+		
+	}
+}
+
+/*
+
+enter a alphabet : 
+asdf
+character : a
+
+
+*/

@@ -1,7 +1,6 @@
 package Strings;
 
 import java.util.Scanner;
-
 public class ReverseString {
 	static String reverse(String s) {
 		String rev="";

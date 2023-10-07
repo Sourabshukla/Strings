@@ -15,7 +15,7 @@ public class SwapCaseAlphabet {
 			if(s.charAt(i)>=65 && s.charAt(i)<=90) {
 				newstr=newstr+(char)(s.charAt(i)+32);
 				//small letters
-			}else if (s.charAt(i)>=90 && s.charAt(i)<=122) {
+			}else if (s.charAt(i)>=97 && s.charAt(i)<=122) {
 				newstr=newstr+(char)(s.charAt(i)-32);
 
 			}//other than alphabets

@@ -7,7 +7,7 @@ public class UpperLowerConvert {
 	
 		String newstr="";
 		for(int i=0;i<s.length();i++) {
-			newstr=newstr+(char)(s.charAt(i)-32);
+			newstr=newstr+(char)(s.charAt(i)+32);
 		}return newstr;
 	}
 	
@@ -20,3 +20,25 @@ public class UpperLowerConvert {
 		sc.close();
 	}
 }
+/*
+
+The program starts, and the main method is executed.
+It prompts the user to enter a string, so we input "HELLO".
+The upperlower method is called with the input string "HELLO".
+In the upperlower method, the for loop iterates through each character in the string.
+Iteration 1: c is 'H'. Character.isUpperCase(c) returns true, so it proceeds to convert 'H' to lowercase by adding 32.
+ This results in 'h', and it is added to the newstr.
+Iteration 2: 'E' is converted to 'e'.
+Iteration 3: 'L' is converted to 'l'.
+Iteration 4: 'L' is converted to 'l'.
+Iteration 5: 'O' is converted to 'o'.
+The newstr becomes "hello" after all characters have been converted to lowercase.
+The upperlower method returns "hello".
+In the main method, it prints "hello" to the console.
+The program closes the Scanner and finishes.
+So, for the input "HELLO," the program converts all uppercase
+ letters to lowercase and prints "hello" to the console. 
+ If the input had contained any lowercase letters, it would have displayed "Invalid input. Please enter only uppercase letters." 
+ and returned "Invalid."
+
+*/

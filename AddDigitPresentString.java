@@ -1,8 +1,10 @@
 /*
+o/p
 enter an string :
 a3b2
 ab5
 */
+
 
 package Strings;
 
